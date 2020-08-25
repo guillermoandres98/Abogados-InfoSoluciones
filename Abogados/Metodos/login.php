@@ -1,7 +1,9 @@
 <?php
-require_once '../metodos/conexion.php';
+require_once '../Metodos/conexion.php';
 
-if (isset($_POST)) {
+var_dump($_POST);
+
+if (!empty($_POST)) {
     
     //Borrar error antiguo
     if(isset($_SESSION['error_login'])){
@@ -13,7 +15,7 @@ if (isset($_POST)) {
     $password = md5($_POST['password']);
     
     //Consulta para comprobar las credenciales del usuario
-    $sql = "SELECT * FROM usuarios WHERE email = '$email' AND password = '$password'";
+    $sql = "SELECT * FROM usuarios WHERE correo = '$email' AND clave = '$password'";
     var_dump($sql);
     $login = mysqli_query($db, $sql);
     if ($login && mysqli_num_rows($login) == 1) {
@@ -30,4 +32,3 @@ if (isset($_POST)) {
         header("Location: ../index.php");
     }
 }
-
