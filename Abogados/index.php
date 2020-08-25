@@ -8,10 +8,11 @@
                 if (!empty($_SESSION['errorLogin'])):
                     ?>
                     <?php
+                    $error = $_SESSION['errorLogin'];
                     echo "<script>Swal.fire({
                                 icon: 'error',
                                 title: 'Error',
-                                text: 'Usuario o contraseña no validos',
+                                text:  '$error',
                               })
                          </script> 
                          ";
