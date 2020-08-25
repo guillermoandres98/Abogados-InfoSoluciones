@@ -26,7 +26,7 @@
                 </div>
                 <div class="card-content center-align">
                     <div class="row">
-                        <form class="col s12" method="POST" action="metodos/login.php">
+                        <form method="POST" action="Metodos/login.php">
                             <div class="row">
                                 <div class="input-field col s12">
                                     <input id="email" type="email" name="email" class="validate">
