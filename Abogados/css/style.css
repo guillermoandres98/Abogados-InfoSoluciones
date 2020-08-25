@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-08-2020, 2:45:44
+    Author     : GAFV
+*/
+
+body{
+    background-color: #e0f7fa;
+}
+.colorLet{
+    color: darkblue;
+}
+.row .col.s10 {             
+    margin-left: 6% !important;
+}
+.select-wrapper{
+    color: white !important;
+}
+.fontmax{
+    font-size: 1.2rem;
+    text-align: center !important;
+}
+.fontmax2{
+    font-size: 1.1rem;
+    text-align: center !important;
+}
+ 
+.card-title {
+    font-size: 3rem !important;             
+}
+.container2{
+    width: 40%;              
+    margin-right: 10%;
+    margin-top: 0.3%;
+    height: auto;
+}
+.container2 .row{
+    margin-bottom: 0px !important;
+}
+.container1{
+    width: 30%;                
+    margin-left: 7%;
+    margin-top: 15%;
+}
+.local{
+    margin-left: 10%;
+}
+.material-icons2{
+    font-size: 3rem !important;
+}
+@media (max-width: 1400px)
+{
+    .card-title {
+        font-size: 2.4rem !important;             
+    }
+    .local{
+        margin-left: 7%;
+        width: 100%;
+    }
+    .row .col.s1 {
+        width: auto;
+        margin-left: 0;
+    }
+}
+@media (max-width: 1150px)
+{
+    .card-title {
+        font-size: 1.9rem !important;             
+    }
+    .local{
+        margin-left: 3%;
+        width: 100%;
+    }
+    .loca2{
+        margin-left: 6%;
+    }
+    .material-icons2{
+        font-size: 2.5rem !important;
+    }
+}
+@media (max-width: 950px)
+{
+    .card-title {
+        font-size: 1.7rem !important;             
+    }
+    .fontmax{
+        font-size: 1rem;
+    }
+    .fontmax2{
+        font-size: 0.9rem;
+    }
+    .fontmax3{
+        font-size: 2.4rem;
+    }
+    .local{
+        margin-left: 1%;
+        width: 100%;
+    }
+    .loca2{
+        margin-left: 1%;
+    }
+
+}
+@media (max-width: 790px)
+{
+    .card-title {
+        font-size: 1.8rem !important;             
+    }
+    .local{
+        margin-left: auto;
+        width: 100%;
+    }
+    .loca2{
+        margin-left: auto;
+    }
+    .fontmax2{
+        font-size: 0.7rem;
+    }
+    .fontmax3{
+        font-size: 2.2rem;
+    }
+
+
+} 
+@media (max-width: 720px)
+{
+    .card-title {
+        font-size: 1.6rem !important;             
+    }
+    .local{
+        margin-left: 1%;
+        width: 100%;
+    }
+    .loca2{
+        margin-left: 1%;
+    }
+
+} 
+@media (max-width: 650px)
+{
+    .card-title {
+        font-size: 1.4rem !important;             
+    }
+    .local{
+        margin-left: auto;
+        width: 100%;
+    }
+    .loca2{
+        margin-left: 1%;
+    }
+
+} 
